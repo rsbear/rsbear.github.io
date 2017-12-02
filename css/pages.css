@@ -1,0 +1,111 @@
+/* -------------------------------------------------------------
+  Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
+  By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
+
+  List of CSS3 Sass Mixins File to be @imported and @included as you need
+
+  The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
+  ENDING css files
+
+  note: All CSS3 Properties are being supported by Safari 5
+  more info: http://www.findmebyip.com/litmus/#css3-properties
+
+------------------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,400i,700,900");
+body {
+  background-color: #e8e8e8; }
+
+h1 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style-type: none;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+  font-size: 14pt; }
+
+a {
+  text-decoration: none; }
+
+img {
+  margin: 0;
+  padding: 0; }
+
+.top-container {
+  position: fixed;
+  top: 0;
+  left: 260px;
+  top: 0px;
+  z-index: -2; }
+
+.title-text {
+  font-family: 'Barlow', sans-serif;
+  font-size: 72pt;
+  font-weight: 900;
+  color: #1E272D; }
+
+.explain-text {
+  font-family: 'Barlow', sans-serif;
+  font-size: 18pt;
+  font-weight: 400;
+  color: #2C3942; }
+
+.top-icons-container {
+  position: absolute;
+  left: -14px;
+  text-align: left; }
+
+.screens-container {
+  position: absolute;
+  left: 0;
+  top: 300px;
+  width: 100%;
+  max-width: 100%;
+  background-color: #e8e8e8;
+  border-top: solid;
+  border-width: 3px;
+  border-color: #EEBA0B; }
+
+.ss {
+  margin: -4px;
+  padding: 0;
+  max-width: 100%;
+  border-top: solid;
+  border-width: 4px;
+  border-color: #EEBA0B; }
+
+.ss-s {
+  width: 33%; }
+
+@media only screen and (min-width: 960px) {
+  /* styles for browsers larger than 960px; */ }
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */ }
+@media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */ }
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */ }
+@media only screen and (device-width: 768px) {
+  /* default iPad screens */ }
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* For portrait layouts only */ }
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* For landscape layouts only */ }
+
+/*# sourceMappingURL=pages.css.map */

@@ -1,0 +1,168 @@
+// compileCompressed: ../css/main.css
+
+@import "_mixins.scss";
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,400i,700,900');
+
+
+// COLORS
+$white: #FFFFFF;
+$litegray: #e8e8e8;
+$mediumgray: #D3D3D3;
+$veryliteblu: #69889E;
+$liteblu: #2C3942;
+$mediumblu: #1E272D;
+$darkblu: #282C2E;
+$softorange: #F4A259;
+$honey: #EEBA0B;
+
+
+
+
+@mixin position($width: width, $left: 90px, $position: absolute) {
+  width: calc(#{$fullWide} - #{$left});
+  left: 90px;
+  position: absolute;
+}
+
+
+@mixin material-animation-default($duration:0.2s) {
+  transition-duration: $duration;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+
+
+body {
+  background-color: $litegray;
+}
+h1 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: $white;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: $white;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+  font-size: 14pt;
+}
+a {
+  text-decoration: none;
+}
+img {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.top-container {
+  position: fixed;
+  top: 0;
+  left: 260px;
+  top: 0px;
+  z-index: -2;
+}
+.title{
+}
+.title-text{
+  font-family: 'Barlow', sans-serif;
+  font-size: 72pt;
+  font-weight: 900;
+  color: $mediumblu;
+}
+.explain{
+}
+.explain-text {
+  font-family: 'Barlow', sans-serif;
+  font-size: 18pt;
+  font-weight: 400;
+  color: $liteblu
+}
+.top-icons-container {
+  position: absolute;
+  left: -14px;
+  text-align: left;
+}
+.page-nav {
+}
+
+
+
+.screens-container {
+  position: absolute;
+  left: 0;
+  top: 300px;
+  width: 100%;
+  max-width: 100%;
+  background-color: $litegray;
+  border-top: solid;
+  border-width: 3px;
+  border-color: $honey;
+}
+.ss {
+  margin: -4px;
+  padding: 0;
+  max-width: 100%;
+  border-top: solid;
+  border-width: 4px;
+  border-color: $honey;
+}
+.ss-s {
+  width: 33%;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:960px){
+	/* styles for browsers larger than 960px; */
+}
+@media only screen and (min-width:1440px){
+    /* styles for browsers larger than 1440px; */
+}
+@media only screen and (min-width:2000px){
+    /* for sumo sized (mac) screens */
+}
+@media only screen and (max-device-width:480px){
+   /* styles for mobile browsers smaller than 480px; (iPhone) */
+}
+@media only screen and (device-width:768px){
+   /* default iPad screens */
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  /* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+}
