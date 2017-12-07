@@ -154,6 +154,22 @@ img {
 }
 @media only screen and (max-device-width:480px){
    /* styles for mobile browsers smaller than 480px; (iPhone) */
+
+   .top-container {
+    left: 100px;
+   }
+   .title, .title-text {
+    margin-top: 10px;
+    font-size: 32pt;
+   }
+   .explain-text {
+    font-size: 14pt;
+   }
+
+
+   .ss-s {
+    width: 100%;
+   }
 }
 @media only screen and (device-width:768px){
    /* default iPad screens */

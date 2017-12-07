@@ -95,16 +95,35 @@ a {
   width: 440px;
 }
 
-.logo-bg {
+.logo {
   position: absolute;
-  width: 120px;
-  margin: 30px 0 30px 30px;
+  width: 72px;
+  height: 80px;
+  margin: 30px 0 30px 50px;
   text-align: center;
   border-radius: 8px;
-  transition: all 200ms ease-out;
 }
-.logo-bg.open{
-  margin-left: 50px;
+.logo.open{
+  margin-left: 72px;
+}
+.rsbear-logo:hover {
+  fill: $veryliteblu;
+  cursor: pointer;
+}
+
+
+.rs-title {
+  position: absolute;
+  top: 6px;
+  text-align: center;
+  width: 70px;
+}
+.rs-title,.rs-text {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 900;
+  font-size: 30pt;
+  text-transform: uppercase;
+  color: $white;
 }
 
 .drawer-btn-bg {
@@ -288,6 +307,35 @@ a {
 }
 @media only screen and (max-device-width:480px){
    /* styles for mobile browsers smaller than 480px; (iPhone) */
+
+   .logo, .rsbear-logo {
+    width: 50px;
+    margin: 10px;
+   }
+
+   .drawer-btn-bg {
+    width: 28px;
+    height: 28px;
+    top: 90px;
+    left: 30px;
+   }
+   .nav-honeyjar {
+    height: 14px;
+    margin-top: 7px;
+    margin-left: 7px;
+   }
+
+
+
+
+   .content-container {
+    width: 90%;
+    margin: 200px 5% 100px 5%;
+    text-align: left;
+   }
+    .conent-container, .intro-text {
+      font-size: 26pt;
+    }
 }
 @media only screen and (device-width:768px){
    /* default iPad screens */
