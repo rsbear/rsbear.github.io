@@ -113,7 +113,19 @@ img {
   .ss-s {
     width: 100%; } }
 @media only screen and (device-width: 768px) {
-  /* default iPad screens */ }
+  /* default iPad screens */
+  .top-container {
+    left: 100px; }
+
+  .title, .title-text {
+    margin-top: 10px;
+    font-size: 32pt; }
+
+  .explain-text {
+    font-size: 14pt; }
+
+  .ss-s {
+    width: 100%; } }
 /* different techniques for iPad screening */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* For portrait layouts only */ }

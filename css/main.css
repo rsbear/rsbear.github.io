@@ -271,7 +271,29 @@ a {
   .conent-container, .intro-text {
     font-size: 26pt; } }
 @media only screen and (device-width: 768px) {
-  /* default iPad screens */ }
+  /* default iPad screens */
+  .logo, .rsbear-logo {
+    width: 50px;
+    margin: 10px; }
+
+  .drawer-btn-bg {
+    width: 28px;
+    height: 28px;
+    top: 90px;
+    left: 30px; }
+
+  .nav-honeyjar {
+    height: 14px;
+    margin-top: 7px;
+    margin-left: 7px; }
+
+  .content-container {
+    width: 90%;
+    margin: 200px 5% 100px 5%;
+    text-align: left; }
+
+  .conent-container, .intro-text {
+    font-size: 26pt; } }
 /* different techniques for iPad screening */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* For portrait layouts only */ }
