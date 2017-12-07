@@ -59,10 +59,14 @@ img {
   font-weight: 900;
   color: #1E272D; }
 
+.explain {
+  border-top: solid 2px #EEBA0B; }
+
 .explain-text {
   font-family: 'Barlow', sans-serif;
   font-size: 18pt;
   font-weight: 400;
+  margin-top: 20px;
   color: #2C3942; }
 
 .top-icons-container {
@@ -72,25 +76,24 @@ img {
 
 .screens-container {
   position: absolute;
-  left: 0;
+  left: 10%;
   top: 300px;
-  width: 100%;
-  max-width: 100%;
-  background-color: #e8e8e8;
-  border-top: solid;
-  border-width: 3px;
-  border-color: #EEBA0B; }
+  width: 80%;
+  max-width: 100%; }
 
 .ss {
-  margin: -4px;
   padding: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
   max-width: 100%;
-  border-top: solid;
-  border-width: 4px;
-  border-color: #EEBA0B; }
+  border-radius: 8px;
+  box-shadow: 0px 10px 25px 3px rgba(0, 0, 0, 0.55); }
 
 .ss-s {
-  width: 33%; }
+  width: 30%;
+  margin: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 10px 25px 3px rgba(0, 0, 0, 0.55); }
 
 @media only screen and (min-width: 960px) {
   /* styles for browsers larger than 960px; */ }

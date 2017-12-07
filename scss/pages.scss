@@ -97,12 +97,14 @@ img {
   color: $mediumblu;
 }
 .explain{
+  border-top: solid 2px $honey;
 }
 .explain-text {
   font-family: 'Barlow', sans-serif;
   font-size: 18pt;
   font-weight: 400;
-  color: $liteblu
+  margin-top: 20px;
+  color: $liteblu;
 }
 .top-icons-container {
   position: absolute;
@@ -116,25 +118,24 @@ img {
 
 .screens-container {
   position: absolute;
-  left: 0;
+  left: 10%;
   top: 300px;
-  width: 100%;
+  width: 80%;
   max-width: 100%;
-  background-color: $litegray;
-  border-top: solid;
-  border-width: 3px;
-  border-color: $honey;
 }
 .ss {
-  margin: -4px;
   padding: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
   max-width: 100%;
-  border-top: solid;
-  border-width: 4px;
-  border-color: $honey;
+  border-radius: 8px;
+  box-shadow: 0px 10px 25px 3px rgba(0,0,0,0.55);
 }
 .ss-s {
-  width: 33%;
+  width: 30%;
+  margin: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 10px 25px 3px rgba(0,0,0,0.55);
 }
 
 
