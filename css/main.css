@@ -270,7 +270,7 @@ a {
 
   .conent-container, .intro-text {
     font-size: 26pt; } }
-@media only screen and (device-width: 768px) {
+@media only screen and (max-device-width: 768px) {
   /* default iPad screens */
   .logo, .rsbear-logo {
     width: 50px;

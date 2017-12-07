@@ -171,7 +171,7 @@ img {
     width: 100%;
    }
 }
-@media only screen and (device-width:768px){
+@media only screen and (max-device-width:768px){
    /* default iPad screens */
 
    .top-container {

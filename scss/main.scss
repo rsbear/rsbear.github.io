@@ -337,7 +337,9 @@ a {
       font-size: 26pt;
     }
 }
-@media only screen and (device-width:768px){
+
+
+@media only screen and (max-device-width:768px){
    /* default iPad screens */
 
    .logo, .rsbear-logo {
@@ -369,6 +371,8 @@ a {
       font-size: 26pt;
     }
 }
+
+
 /* different techniques for iPad screening */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
   /* For portrait layouts only */
