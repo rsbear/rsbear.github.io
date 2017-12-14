@@ -140,7 +140,7 @@ img {
 }
 .ss-s {
   width: 30%;
-  margin: 15px;
+  margin: 1%;
   border-radius: 8px;
   box-shadow: 0px 10px 25px 3px rgba(0,0,0,0.55);
 }
@@ -151,8 +151,34 @@ img {
 
 
 
-@media only screen and (min-width:960px){
+@media only screen and (max-width:960px){
 	/* styles for browsers larger than 960px; */
+  .top-container {
+    left: 100px;
+   }
+   .title, .title-text {
+    margin-top: 10px;
+    font-size: 32pt;
+   }
+   .explain-text {
+    font-size: 14pt;
+   }
+
+   .bg-gradient {
+    top: 250px;
+   }
+   .screens-container {
+    top: 0px;
+    left: 4%;
+    width: 92%;
+   }
+   .ss {
+    margin-top: 6px;
+    margin-bottom: 6px;
+   }
+   .ss-s {
+    width: 98%;
+   }
 }
 @media only screen and (min-width:1440px){
     /* styles for browsers larger than 1440px; */
@@ -174,10 +200,20 @@ img {
     font-size: 14pt;
    }
 
-
-   
+   .bg-gradient {
+    top: 250px;
+   }
+   .screens-container {
+    top: 0px;
+    left: 4%;
+    width: 92%;
+   }
+   .ss {
+    margin-top: 6px;
+    margin-bottom: 6px;
+   }
    .ss-s {
-    width: 100%;
+    width: 98%;
    }
 }
 @media only screen and (max-device-width:768px){
@@ -194,9 +230,20 @@ img {
     font-size: 14pt;
    }
 
-
+   .bg-gradient {
+    top: 250px;
+   }
+   .screens-container {
+    top: 0px;
+    left: 4%;
+    width: 92%;
+   }
+   .ss {
+    margin-top: 6px;
+    margin-bottom: 6px;
+   }
    .ss-s {
-    width: 100%;
+    width: 98%;
    }
 }
 /* different techniques for iPad screening */

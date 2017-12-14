@@ -310,59 +310,135 @@ a {
 ::-webkit-scrollbar-thumb:window-inactive {
   background: #1E272D; }
 
-@media only screen and (min-width: 960px) {
-  /* styles for browsers larger than 960px; */ }
+@media only screen and (max-width: 960px) {
+  /* styles for browsers larger than 960px; */
+  .logo {
+    width: 72px;
+    left: 6px;
+    top: 6px;
+    margin-left: 0;
+    margin-top: 0;
+    transform: scale(0.6); }
+
+  .drawer-btn {
+    width: 28px;
+    height: 28px;
+    top: 80px;
+    left: 28px;
+    background-size: 8px; }
+
+  .nav-container {
+    margin-left: 20px; }
+
+  .linking1 {
+    top: 120px;
+    visibility: hidden;
+    opacity: 0; }
+
+  .linking2 {
+    top: 180px;
+    visibility: hidden;
+    opacity: 0; }
+
+  .linking3 {
+    top: 240px;
+    visibility: hidden;
+    opacity: 0; }
+
+  .content-container {
+    width: 90%;
+    margin: 200px 5% 100px 5%;
+    text-align: left; }
+
+  .content-container, .intro-text {
+    font-size: 26pt; } }
 @media only screen and (min-width: 1440px) {
   /* styles for browsers larger than 1440px; */ }
 @media only screen and (min-width: 2000px) {
   /* for sumo sized (mac) screens */ }
 @media only screen and (max-device-width: 480px) {
   /* styles for mobile browsers smaller than 480px; (iPhone) */
-  .logo, .rsbear-logo {
-    width: 50px;
-    margin: 10px; }
+  .logo {
+    width: 72px;
+    left: 6px;
+    top: 6px;
+    margin-left: 0;
+    margin-top: 0;
+    transform: scale(0.6); }
 
-  .drawer-btn-bg {
+  .drawer-btn {
     width: 28px;
     height: 28px;
-    top: 90px;
-    left: 30px; }
+    top: 80px;
+    left: 28px;
+    background-size: 8px; }
 
-  .nav-honeyjar {
-    height: 14px;
-    margin-top: 7px;
-    margin-left: 7px; }
+  .nav-container {
+    margin-left: 20px; }
+
+  .linking1 {
+    top: 120px;
+    visibility: hidden;
+    opacity: 0; }
+
+  .linking2 {
+    top: 180px;
+    visibility: hidden;
+    opacity: 0; }
+
+  .linking3 {
+    top: 240px;
+    visibility: hidden;
+    opacity: 0; }
 
   .content-container {
     width: 90%;
     margin: 200px 5% 100px 5%;
     text-align: left; }
 
-  .conent-container, .intro-text {
+  .content-container, .intro-text {
     font-size: 26pt; } }
 @media only screen and (max-device-width: 768px) {
   /* default iPad screens */
-  .logo, .rsbear-logo {
-    width: 50px;
-    margin: 10px; }
+  .logo {
+    width: 72px;
+    left: 6px;
+    top: 6px;
+    margin-left: 0;
+    margin-top: 0;
+    transform: scale(0.6); }
 
-  .drawer-btn-bg {
+  .drawer-btn {
     width: 28px;
     height: 28px;
-    top: 90px;
-    left: 30px; }
+    top: 80px;
+    left: 28px;
+    background-size: 8px; }
 
-  .nav-honeyjar {
-    height: 14px;
-    margin-top: 7px;
-    margin-left: 7px; }
+  .nav-container {
+    margin-left: 20px; }
+
+  .linking1 {
+    top: 120px;
+    visibility: hidden;
+    opacity: 0; }
+
+  .linking2 {
+    top: 180px;
+    visibility: hidden;
+    opacity: 0; }
+
+  .linking3 {
+    top: 240px;
+    visibility: hidden;
+    opacity: 0; }
 
   .content-container {
     width: 90%;
     margin: 200px 5% 100px 5%;
     text-align: left; }
 
-  .conent-container, .intro-text {
+  .content-container, .intro-text {
     font-size: 26pt; } }
 /* different techniques for iPad screening */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
