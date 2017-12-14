@@ -55,16 +55,17 @@ img {
 
 .title-text {
   font-family: 'Barlow', sans-serif;
-  font-size: 72pt;
+  font-size: 6em;
   font-weight: 900;
   color: #1E272D; }
 
 .explain {
-  border-top: solid 2px #EEBA0B; }
+  border-top: solid 2px #EEBA0B;
+  padding-top: 12px; }
 
 .explain-text {
   font-family: 'Barlow', sans-serif;
-  font-size: 18pt;
+  font-size: 1.4em;
   font-weight: 400;
   margin-top: 20px;
   color: #2C3942; }
@@ -74,12 +75,18 @@ img {
   left: -14px;
   text-align: left; }
 
+.bg-gradient {
+  position: absolute;
+  left: 0;
+  top: 300px;
+  width: 100%;
+  height: inherit;
+  background-color: green; }
+
 .screens-container {
   position: absolute;
-  left: 10%;
-  top: 300px;
-  width: 80%;
-  max-width: 100%; }
+  left: 8%;
+  width: 84%; }
 
 .ss {
   padding: 0;
