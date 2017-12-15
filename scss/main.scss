@@ -153,6 +153,7 @@ a {
 .mainlinks { 
   font-family: 'Barlow', sans-serif;
   font-size: 1.2em;
+  font-weight: 400;
   padding: 20px; 
   line-height: 40px;
   color: $mediumblu;
@@ -170,38 +171,44 @@ a {
   top: 50%;
   white-space: nowrap;
   float: right;
-  transition: 240ms ease;
+  transition: 240ms ease-out;
 }
-.mainlinks:hover { color: $darkblu; }
+.mainlinks:hover { color: $darkblu }
 .linking:hover { background-color: $litehoney; transform: scale(1.08); }
 .linking1:hover > .hinting { width: 170px; opacity: 1; margin-top: 10px; font-size: 1em; }
 .linking2:hover > .hinting { width: 200px; opacity: 1; margin-top: 10px; font-size: 1em; }
 .linking3:hover > .hinting { width: 196px; opacity: 1; margin-top: 10px; font-size: 1em; }
+.linking4:hover > .hinting { width: 120px; opacity: 1; margin-top: 10px; font-size: 1em; }
 
 
 .linking1 { top: 180px; visibility: hidden; opacity: 0; }
 .linking2 { top: 240px; visibility: hidden; opacity: 0; }
 .linking3 { top: 300px; visibility: hidden; opacity: 0; }
+.linking4 { top: 360px; visibility: hidden; opacity: 0; }
 
 .linking1.NavOpen, 
 .linking2.NavOpen, 
-.linking3.NavOpen {
+.linking3.NavOpen,
+.linking4.NavOpen {
   visibility: visible;
   transform: translateY(16px); 
   opacity: 1;
 }
 .linking2.NavOpen { transition-delay: 120ms; }
 .linking3.NavOpen { transition-delay: 180ms; }
+.linking4.NavOpen { transition-delay: 220ms; }
 
 .linking1.NavClose, 
 .linking2.NavClose, 
-.linking3.NavClose {
+.linking3.NavClose,
+.linking4.NavClose {
   visibility: hidden;
   transform: translateY(-16px);
   opacity: 0;
 }
-.linking1.NavClose { transition-delay: 180ms; }
-.linking2.NavClose { transition-delay: 120ms; }
+.linking1.NavClose { transition-delay: 220ms; }
+.linking2.NavClose { transition-delay: 180ms; }
+.linking3.NavClose { transition-delay: 120ms; }
 
 
 
