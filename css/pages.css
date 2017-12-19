@@ -1,0 +1,193 @@
+/* -------------------------------------------------------------
+  Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
+  By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
+
+  List of CSS3 Sass Mixins File to be @imported and @included as you need
+
+  The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
+  ENDING css files
+
+  note: All CSS3 Properties are being supported by Safari 5
+  more info: http://www.findmebyip.com/litmus/#css3-properties
+
+------------------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,400i,700,900");
+body {
+  background-color: #e8e8e8; }
+
+h1 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style-type: none;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+  font-size: 14pt; }
+
+a {
+  text-decoration: none; }
+
+img {
+  margin: 0;
+  padding: 0; }
+
+.top-container {
+  position: fixed;
+  top: 0;
+  left: 260px;
+  top: 0px;
+  z-index: -2; }
+
+.title-text {
+  font-family: 'Barlow', sans-serif;
+  font-size: 6em;
+  font-weight: 900;
+  color: #1E272D; }
+
+.explain {
+  border-top: solid 2px #EEBA0B;
+  padding-top: 12px; }
+
+.explain-text {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.4em;
+  font-weight: 400;
+  margin-top: 20px;
+  color: #2C3942; }
+
+.top-icons-container {
+  position: absolute;
+  left: -14px;
+  text-align: left; }
+
+.bg-gradient {
+  position: absolute;
+  left: 0;
+  top: 300px;
+  width: 100%;
+  height: inherit;
+  background-color: green; }
+
+.screens-container {
+  position: absolute;
+  left: 8%;
+  width: 84%; }
+
+.ss {
+  padding: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 10px 25px 3px rgba(0, 0, 0, 0.55); }
+
+.ss-s {
+  width: 30%;
+  margin: 1%;
+  border-radius: 8px;
+  box-shadow: 0px 10px 25px 3px rgba(0, 0, 0, 0.55); }
+
+@media only screen and (max-width: 960px) {
+  /* styles for browsers larger than 960px; */
+  .top-container {
+    left: 100px; }
+
+  .title, .title-text {
+    margin-top: 10px;
+    font-size: 32pt; }
+
+  .explain-text {
+    font-size: 14pt; }
+
+  .bg-gradient {
+    top: 250px; }
+
+  .screens-container {
+    top: 0px;
+    left: 4%;
+    width: 92%; }
+
+  .ss {
+    margin-top: 6px;
+    margin-bottom: 6px; }
+
+  .ss-s {
+    width: 98%; } }
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */ }
+@media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */ }
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+  .top-container {
+    left: 100px; }
+
+  .title, .title-text {
+    margin-top: 10px;
+    font-size: 32pt; }
+
+  .explain-text {
+    font-size: 14pt; }
+
+  .bg-gradient {
+    top: 250px; }
+
+  .screens-container {
+    top: 0px;
+    left: 4%;
+    width: 92%; }
+
+  .ss {
+    margin-top: 6px;
+    margin-bottom: 6px; }
+
+  .ss-s {
+    width: 98%; } }
+@media only screen and (max-device-width: 768px) {
+  /* default iPad screens */
+  .top-container {
+    left: 100px; }
+
+  .title, .title-text {
+    margin-top: 10px;
+    font-size: 32pt; }
+
+  .explain-text {
+    font-size: 14pt; }
+
+  .bg-gradient {
+    top: 250px; }
+
+  .screens-container {
+    top: 0px;
+    left: 4%;
+    width: 92%; }
+
+  .ss {
+    margin-top: 6px;
+    margin-bottom: 6px; }
+
+  .ss-s {
+    width: 98%; } }
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* For portrait layouts only */ }
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* For landscape layouts only */ }
+
+/*# sourceMappingURL=pages.css.map */

@@ -1,0 +1,109 @@
+// compileCompressed: ../css/main.css
+
+@import "_mixins.scss";
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,400i,700,900');
+
+
+// COLORS
+$softorange: #F4A259;
+$darkblu: #282C2E;
+$mediumblu: #1E272D;
+$liteblu: #2C3942;
+$veryliteblu: #69889E;
+
+$litegray: #e8e8e8;
+$mediumgray: #D3D3D3;
+
+$honey: #EEBA0B;
+$litehoney: #FFCD2B;
+
+$white: #FFFFFF;
+
+
+
+@mixin position($width: width, $left: 90px, $position: absolute) {
+  width: calc(#{$fullWide} - #{$left});
+  left: 90px;
+  position: absolute;
+}
+
+
+@mixin material-animation-default($duration:0.2s) {
+  transition-duration: $duration;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+
+
+body {
+  background-color: $litegray;
+}
+
+
+
+
+
+
+/* CUSTOM SCROLLBAR */
+::-webkit-scrollbar{
+    width: 5px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: $litegray;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $liteblu;  
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: $mediumblu; 
+}
+
+
+
+
+@media only screen and (max-width:960px){
+	/* styles for browsers larger than 960px; */
+  
+}
+@media only screen and (min-width:1440px){
+    /* styles for browsers larger than 1440px; */
+}
+@media only screen and (min-width:2000px){
+    /* for sumo sized (mac) screens */
+}
+@media only screen and (max-device-width:480px){
+   /* styles for mobile browsers smaller than 480px; (iPhone) */
+
+  
+}
+
+
+@media only screen and (max-device-width:768px){
+   /* default iPad screens */
+
+   
+}
+
+
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  /* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+}

@@ -1,0 +1,49 @@
+/* -------------------------------------------------------------
+  Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
+  By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
+
+  List of CSS3 Sass Mixins File to be @imported and @included as you need
+
+  The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
+  ENDING css files
+
+  note: All CSS3 Properties are being supported by Safari 5
+  more info: http://www.findmebyip.com/litmus/#css3-properties
+
+------------------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,400i,700,900");
+body {
+  background-color: #e8e8e8; }
+
+/* CUSTOM SCROLLBAR */
+::-webkit-scrollbar {
+  width: 5px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #e8e8e8; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2C3942; }
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #1E272D; }
+
+@media only screen and (max-width: 960px) {
+  /* styles for browsers larger than 960px; */ }
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */ }
+@media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */ }
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */ }
+@media only screen and (max-device-width: 768px) {
+  /* default iPad screens */ }
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* For portrait layouts only */ }
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* For landscape layouts only */ }
+
+/*# sourceMappingURL=main.css.map */
