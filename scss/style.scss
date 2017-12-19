@@ -211,6 +211,7 @@ h1.titling {
 	//padding-bottom: 40px;
 	padding-top: 0;
 	width: 560px;
+  max-width: 90%;
 	transform: translateY(0px);
 	opacity: 1;
 	animation: FadeInMoveUp 2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
